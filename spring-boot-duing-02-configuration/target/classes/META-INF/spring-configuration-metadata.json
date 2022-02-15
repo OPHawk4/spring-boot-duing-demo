@@ -1,12 +1,32 @@
 {
   "groups": [
     {
+      "name": "fish",
+      "type": "com.duing.config.fishConfig",
+      "sourceType": "com.duing.config.fishConfig"
+    },
+    {
       "name": "food",
       "type": "com.duing.config.FoodConfig",
       "sourceType": "com.duing.config.FoodConfig"
+    },
+    {
+      "name": "vegetable",
+      "type": "com.duing.config.VegetableConfig",
+      "sourceType": "com.duing.config.VegetableConfig"
     }
   ],
   "properties": [
+    {
+      "name": "fish.dacong",
+      "type": "java.lang.String",
+      "sourceType": "com.duing.config.fishConfig"
+    },
+    {
+      "name": "fish.doufu",
+      "type": "java.lang.String",
+      "sourceType": "com.duing.config.fishConfig"
+    },
     {
       "name": "food.meat",
       "type": "java.lang.String",
@@ -16,6 +36,26 @@
       "name": "food.rice",
       "type": "java.lang.String",
       "sourceType": "com.duing.config.FoodConfig"
+    },
+    {
+      "name": "food.sauce",
+      "type": "java.lang.String[]",
+      "sourceType": "com.duing.config.FoodConfig"
+    },
+    {
+      "name": "vegetable.egg-plant",
+      "type": "java.lang.String",
+      "sourceType": "com.duing.config.VegetableConfig"
+    },
+    {
+      "name": "vegetable.green-pepper",
+      "type": "java.lang.String",
+      "sourceType": "com.duing.config.VegetableConfig"
+    },
+    {
+      "name": "vegetable.potato",
+      "type": "java.lang.String",
+      "sourceType": "com.duing.config.VegetableConfig"
     }
   ],
   "hints": []

@@ -1,0 +1,41 @@
+#server:
+#  port: 8111
+
+food:
+  meat: 鸡翅
+  rice: 蜜辣
+  sauce:
+      - 咖喱
+      - 蜜汁
+      - 原味
+
+fish:
+  doufu: 豆腐
+  dacong: 大葱
+
+jasypt:
+  encryptor:
+    password: 123456789!@#
+
+info:
+  user: ENC(PTF+AqAsgQmCXkVIrr1x9SqHi5cnTQh9)
+  password: ENC(+akAIf8ETQvYZ+ccR35cIiyfMhECW5aX)
+---
+spring:
+  profiles:
+    active: prod
+
+
+---
+spring:
+  profiles: dev
+server:
+  port: 8112
+
+
+
+---
+spring:
+  profiles: prod
+server:
+  port: 8113

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>thy</title>
+</head>
+<body>
+    <p th:text="${name}">wjc</p>
+    <a href="/wjc" th:href="@{/welcome}">welcome</a>
+
+    <div th:object="${computer}">
+        <p>电脑名字：<span th:text="*{log}"></span></p>
+        <p>电脑价格： <span th:text="${computer.price}"></span></p>
+    </div>
+
+    <div th:text="#{something}"></div>
+
+    <div th:insert="~{footer::copy}"></div>
+    <div th:replace="~{footer::copy}"></div>
+    <div th:include="~{footer::copy}"></div>
+</body>
+</html>
