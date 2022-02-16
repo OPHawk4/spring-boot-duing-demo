@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-duing-03-template" />
         <module name="spring-boot-duing-01-helloworld" />
+        <module name="spring-boot-duing-03-thymeleaf-crud" />
         <module name="spring-boot-duing-02-configuration" />
       </profile>
     </annotationProcessing>
@@ -16,12 +17,14 @@
       <module name="spring-boot-duing-01-helloworld" target="1.5" />
       <module name="spring-boot-duing-02-configuration" target="1.5" />
       <module name="spring-boot-duing-03-template" target="1.8" />
+      <module name="spring-boot-duing-03-thymeleaf-crud" target="1.8" />
       <module name="spring-boot-duing-demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-duing-03-template" options="-parameters" />
+      <module name="spring-boot-duing-03-thymeleaf-crud" options="-parameters" />
     </option>
   </component>
 </project>
