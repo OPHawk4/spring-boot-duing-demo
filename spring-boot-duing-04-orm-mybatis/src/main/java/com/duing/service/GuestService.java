@@ -7,8 +7,8 @@ import java.util.List;
 
 public interface GuestService {
     List<Guest> getGuests();
-//    void add(Guest guest);
-//    Guest get(String name);
-//    void update(String name);
-//    void delete(String name);
+    void add(Guest guest);
+    Guest get(String name);
+    void update(Guest guest);
+    void delete(String name);
 }
