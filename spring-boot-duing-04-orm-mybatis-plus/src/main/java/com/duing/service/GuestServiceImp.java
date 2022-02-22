@@ -7,7 +7,6 @@ import com.duing.mapper.GuestMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 
 @Service
 public class GuestServiceImp extends ServiceImpl<GuestMapper,Guest> implements GuestService{
@@ -24,16 +23,21 @@ public class GuestServiceImp extends ServiceImpl<GuestMapper,Guest> implements G
     public void add(Guest guest) {
         guestMapper.add(guest);
     }
-//
-//    @Override
-//    public void update(String name) {
-//        guestMapper.update(name);
-//    }
-//
-//    @Override
-//    public void delete(String name) {
-//        guestMapper.update(name);
-//    }
+
+    @Override
+    public Guest get(String name) {
+        return guestMapper.get(name);
+    }
+
+    @Override
+    public void update(Guest guest) {
+        guestMapper.update(guest);
+    }
+
+    @Override
+    public void delete(String name) {
+        guestMapper.delete(name);
+    }
 
 
 }

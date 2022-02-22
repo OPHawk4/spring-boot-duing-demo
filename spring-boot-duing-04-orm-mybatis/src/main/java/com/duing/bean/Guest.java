@@ -7,12 +7,10 @@ import lombok.experimental.Accessors;
 
 import javax.persistence.Entity;
 import java.io.Serializable;
-
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Accessors(chain = true)
 public class Guest implements Serializable {
     private Long id;
     private String name;

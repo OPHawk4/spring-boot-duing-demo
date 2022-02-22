@@ -6,6 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-02-configuration/spring-boot-duing-02-configuration.iml" filepath="$PROJECT_DIR$/spring-boot-duing-02-configuration/spring-boot-duing-02-configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-03-template/spring-boot-duing-03-template.iml" filepath="$PROJECT_DIR$/spring-boot-duing-03-template/spring-boot-duing-03-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-03-thymeleaf-crud/spring-boot-duing-03-thymeleaf-crud.iml" filepath="$PROJECT_DIR$/spring-boot-duing-03-thymeleaf-crud/spring-boot-duing-03-thymeleaf-crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-03-web-restful/spring-boot-duing-03-web-restful.iml" filepath="$PROJECT_DIR$/spring-boot-duing-03-web-restful/spring-boot-duing-03-web-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-04-orm-jpa/spring-boot-duing-04-orm-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-duing-04-orm-jpa/spring-boot-duing-04-orm-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-04-orm-mybatis/spring-boot-duing-04-orm-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-duing-04-orm-mybatis/spring-boot-duing-04-orm-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-04-orm-mybatis-plus/spring-boot-duing-04-orm-mybatis-plus.iml" filepath="$PROJECT_DIR$/spring-boot-duing-04-orm-mybatis-plus/spring-boot-duing-04-orm-mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-demo.iml" filepath="$PROJECT_DIR$/spring-boot-duing-demo.iml" />
     </modules>
   </component>

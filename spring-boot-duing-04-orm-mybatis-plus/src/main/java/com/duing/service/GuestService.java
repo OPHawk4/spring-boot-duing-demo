@@ -8,6 +8,7 @@ import java.util.List;
 
 public interface GuestService extends IService<Guest> {
     void add(Guest guest);
-//    void update(String name);
-//    void delete(String name);
+    Guest get(String name);
+    void update(Guest guest);
+    void delete(String name);
 }

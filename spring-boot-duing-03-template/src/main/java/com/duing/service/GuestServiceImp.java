@@ -1,7 +1,7 @@
 package com.duing.service;
 
 import com.duing.bean.Guest;
-import com.duing.dao.GuestDao;
+import com.duing.mapper.GuestDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

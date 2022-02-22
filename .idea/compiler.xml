@@ -7,10 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-duing-03-template" />
-        <module name="spring-boot-duing-01-helloworld" />
+        <module name="spring-boot-duing-04-orm-mybatis" />
         <module name="spring-boot-duing-03-thymeleaf-crud" />
         <module name="spring-boot-duing-02-configuration" />
+        <module name="spring-boot-duing-03-template" />
+        <module name="spring-boot-duing-04-orm-jpa" />
+        <module name="spring-boot-duing-04-orm-mybatis-plus" />
+        <module name="spring-boot-duing-01-helloworld" />
+        <module name="spring-boot-duing-03-web-restful" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +22,10 @@
       <module name="spring-boot-duing-02-configuration" target="1.5" />
       <module name="spring-boot-duing-03-template" target="1.8" />
       <module name="spring-boot-duing-03-thymeleaf-crud" target="1.8" />
+      <module name="spring-boot-duing-03-web-restful" target="1.8" />
+      <module name="spring-boot-duing-04-orm-jpa" target="1.8" />
+      <module name="spring-boot-duing-04-orm-mybatis" target="1.8" />
+      <module name="spring-boot-duing-04-orm-mybatis-plus" target="1.8" />
       <module name="spring-boot-duing-demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
@@ -25,6 +33,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-duing-03-template" options="-parameters" />
       <module name="spring-boot-duing-03-thymeleaf-crud" options="-parameters" />
+      <module name="spring-boot-duing-03-web-restful" options="-parameters" />
+      <module name="spring-boot-duing-04-orm-jpa" options="-parameters" />
+      <module name="spring-boot-duing-04-orm-mybatis" options="-parameters" />
+      <module name="spring-boot-duing-04-orm-mybatis-plus" options="-parameters" />
     </option>
   </component>
 </project>

@@ -22,13 +22,6 @@
     <tr th:each="guest:${guestList}">
         <td th:text="${guest.name}">name</td>
         <td th:text="${guest.role}">role</td>
-        <td class="col-sm-2">
-            <a th:href="@{/guest/toUpdate/}+${guest.name}" class="btn-info btn">编辑</a>
-        </td>
-        <td class="col-sm-2">
-            <!--<a th:href="@{/guest/delete(name=${guest.name})}" >删除</a>-->
-            <button th:attr="del_url=@{/guest/}+${guest.name}" name="del_button" class="btn btn-info">删除</button>
-        </td>
     </tr>
     </tbody>
 </table>

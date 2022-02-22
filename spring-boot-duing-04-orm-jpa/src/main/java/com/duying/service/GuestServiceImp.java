@@ -2,6 +2,7 @@ package com.duying.service;
 
 import com.duying.bean.Guest;
 import com.duying.respository.GuestRepository;
+import org.hibernate.criterion.Example;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +16,10 @@ public class GuestServiceImp implements GuestService{
     @Override
     public List<Guest> list() {
         return guestRepository.findAll();
+    }
+
+    @Override
+    public void add(Guest guest) {
     }
 
 }
